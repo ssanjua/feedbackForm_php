@@ -45,12 +45,16 @@ if (isset($_POST['submit'])) {
     if (mysqli_query($conn, $sql)) {
       // success
       header('Location: feedback.php');
+      exit;
     } else {
       // error
       echo 'Error: ' . mysqli_error($conn);
     }
   }
 }
+
+include 'inc/header.php';
+
 ?>
 
     <img src="img/logo.png" class="w-25 mb-3" alt="">
