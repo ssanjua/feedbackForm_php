@@ -56,13 +56,13 @@ if (isset($_POST['submit'])) {
     <img src="img/logo.png" class="w-25 mb-3" alt="">
     <h2>Feedback</h2>
     <?php echo isset($name) ? $name : ''; ?>
-    <p class="lead text-center">Leave feedback for Traversy Media</p>
+    <p class="lead text-center">Leave feedback to make a world a better place 😉</p>
 
     <form method="POST" action="<?php echo htmlspecialchars(
       $_SERVER['PHP_SELF']
     ); ?>" class="mt-4 w-75">
       <div class="mb-3">
-        <label for="name" class="form-label">Name</label>
+        <label for="name" class="form-label">Name 🫶</label>
         <input type="text" class="form-control <?php echo !$nameErr ?:
           'is-invalid'; ?>" id="name" name="name" placeholder="Enter your name" value="<?php echo $name; ?>">
         <div id="validationServerFeedback" class="invalid-feedback">
@@ -70,12 +70,12 @@ if (isset($_POST['submit'])) {
         </div>
       </div>
       <div class="mb-3">
-        <label for="email" class="form-label">Email</label>
+        <label for="email" class="form-label">Email 📬</label>
         <input type="email" class="form-control <?php echo !$emailErr ?:
           'is-invalid'; ?>" id="email" name="email" placeholder="Enter your email" value="<?php echo $email; ?>">
       </div>
       <div class="mb-3">
-        <label for="body" class="form-label">Feedback</label>
+        <label for="body" class="form-label">Feedback 🤝</label>
         <textarea class="form-control <?php echo !$bodyErr ?:
           'is-invalid'; ?>" id="body" name="body" placeholder="Enter your feedback"><?php echo $body; ?></textarea>
       </div>
