@@ -45,7 +45,6 @@ if (isset($_POST['submit'])) {
     if (mysqli_query($conn, $sql)) {
       // success
       header('Location: feedback.php');
-      exit;  // Es importante cerrar la ejecución aquí.
     } else {
       // error
       echo 'Error: ' . mysqli_error($conn);
@@ -53,8 +52,6 @@ if (isset($_POST['submit'])) {
   }
 }
 
-// Ahora que hemos manejado toda la lógica, incluimos la cabecera.
-include 'inc/header.php';
 ?>
 
     <img src="img/logo.png" class="w-25 mb-3" alt="">
