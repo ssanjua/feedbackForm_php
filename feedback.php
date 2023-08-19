@@ -23,4 +23,3 @@ $feedback = mysqli_fetch_all($result, MYSQLI_ASSOC);
    </div>
   <?php endforeach; ?>
 <?php include 'inc/footer.php'; ?>
-

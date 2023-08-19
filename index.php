@@ -51,9 +51,7 @@ if (isset($_POST['submit'])) {
     }
   }
 }
-
 ?>
-
     <img src="img/logo.png" class="w-25 mb-3" alt="">
     <h2>Feedback</h2>
     <?php echo isset($name) ? $name : ''; ?>

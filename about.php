@@ -28,4 +28,3 @@
     <p class="text-center" style='max-width:800px'>I am from a small town, San Juan, always a fan of crafting things, fixing computers and inventing new devices by disassembling and assembling what I found. I went to the great City of Buenos Aires to study Audiovisual Design where I learned not only to create films but also to work as a team, to communicate my ideas and expand my knowledge of the world in general. Now I’m exploring the world of data with more enthusiasm than ever, I discovered a facet that I love and I want to live it to the fullest.<br> 👩🏻‍💻 + 🎮 + ❤️ + 🧠 = 🎨👌🏼</p>
 
 <?php include 'inc/footer.php'; ?>
-
