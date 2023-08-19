@@ -53,7 +53,7 @@ if (isset($_POST['submit'])) {
 }
 ?>
 
-    <img src="/php-crash/feedback/img/logo.png" class="w-25 mb-3" alt="">
+    <img src="img/logo.png" class="w-25 mb-3" alt="">
     <h2>Feedback</h2>
     <?php echo isset($name) ? $name : ''; ?>
     <p class="lead text-center">Leave feedback for Traversy Media</p>

@@ -12,22 +12,22 @@
 <body>
   <nav class="navbar navbar-expand-sm navbar-light bg-light mb-4">
     <div class="container">
-      <a class="navbar-brand" href="#">Traversy Media</a>
+      <a class="navbar-brand" href="#">ssanjua</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
          <li class="nav-item">
-              <a class="nav-link" href="feedback/index.php">Home</a>
+              <a class="nav-link" href="index.php">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="feedback/feedback.php"
+              <a class="nav-link" href="feedback.php"
                 >Feedback</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="feedback/about.php"
+              <a class="nav-link" href="about.php"
                 >About</a
               >
             </li>
